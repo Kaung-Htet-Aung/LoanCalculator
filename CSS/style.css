@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(199, 190, 190);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#calc-wrapper{
+    background-color: whitesmoke;
+    width: 530px;
+    min-height: 340px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+#get-info{
+    text-align: center;
+}
+
+.info-input{
+    display: inline-block;
+    width: 80%;
+    height: 38px;
+    border-radius: 0.2em;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    outline: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size : 16px;
+}
+
+#calculate{
+    background-color: black;
+    color: white;
+    font-size : 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 85%;
+    height: 38px;
+    border-radius: 0.2em;
+    border: none;
+    outline: none;
+}
+
+#calculate:hover{
+   background-color: rgb(31, 30, 30);
+}
+
+#loan-title{
+    font-family: 'Ubuntu', sans-serif;
+    padding-top : 20px;
+    font-size: 40px;
+}
+
+::placeholder{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size : 15px;
+}
+
+.fa-dollar-sign{
+    position: absolute;
+    z-index: 3;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    opacity: 0.6;
+    
+}
+
+.fa-percent{
+    position: absolute;
+    z-index: 3;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+#years{
+    padding-left: 10px;
+    width: 83.5%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+#results h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+#results{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.output{
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 80%;
+    align-items: center;
+    border-radius: 0.2em;
+    
+}
+
+.placeholder-text{
+    background-color: gainsboro;
+    line-height: 35px;
+    padding : 0 5px;
+    width: 35%;
+    border-radius:  0.2em 0 0 0.2em;
+}
+
+.result-number{
+    padding : 0 10px;
+    font-size: 18px;
+}
+
+#loader img{
+    display: block;
+    width: 120px;
+    margin : 0 auto;
+    padding-bottom: 40px;
+
+}
+
+#loader h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+#loader{
+     display : none;
+    }

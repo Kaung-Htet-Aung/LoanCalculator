@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>LOAN CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ebde7b45ee.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+       <div id="calc-wrapper">
+           <form>
+           <div id="get-info">
+              <h1 id="loan-title">Loan Calculator</h1>
+              <i class="fas fa-dollar-sign"></i><input type="number" id="amount" class="info-input" placeholder="Loan Amount" required><br>
+              <i class="fas fa-percent"></i><input type="number" id="interest" class="info-input" placeholder="Loan Interest" required>
+              <input type="number" id="years" class="info-input" placeholder="Repayment Years" required>
+              <button id="calculate" type="submit">Calculate</button>
+            </div>
+        </form>
+
+ 
+            <div id="results">
+                <h3>Results</h3>
+               <div class="output">
+                   <div class="placeholder-text" >Monthly Payment</div>
+                   <div class="result-number" id="m-pay">0</div>
+               </div>
+
+               <div class="output">
+                <div class="placeholder-text">Total Payment</div>
+                <div class="result-number" id="t-pay">0</div>
+            </div>
+
+            <div class="output">
+                <div class="placeholder-text">Total Interest </div>
+                <div class="result-number" id="t-int">0</div>
+            </div>
+
+            </div>
+ 
+            <div id="loader">
+                <h3>Calculating ...</h3>
+                <img src="Image/Pulse.gif">
+             </div>
+
+        </div>
+       
+     <script type="text/javascript" src="JS/main.js"></script>
+    </body>
+</html>
